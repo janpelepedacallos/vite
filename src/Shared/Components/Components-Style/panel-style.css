@@ -1,0 +1,43 @@
+
+a {
+    color: #fff;
+}
+.panel-tab {
+    background-color: #070641;
+    color: #fff;
+    padding: 1em 0;
+    min-width: 18vw;
+}
+.panel-tab .admin-avatar {
+    text-align: center;
+}
+.panel-buttons {
+    padding: 1em 0;
+}
+.panel-buttons .panelBtn {
+    display: flex;
+    padding: 1em 2em;
+    gap: 1em;
+}
+.panel-buttons img {
+    width: 1.5em;
+}
+.panel-buttons .panelBtn {
+    position: relative;
+}
+.panel-buttons a:hover {
+    color: #FC8D00;
+}
+.panel-buttons .panelBtn::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    transition: .3s ease;
+    width: 0;
+    background-color: #FC8D00;
+}
+.panel-buttons .panelBtn:hover::before {
+    width: .3em;
+}

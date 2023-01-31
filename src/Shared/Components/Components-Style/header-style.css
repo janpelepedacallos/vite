@@ -1,0 +1,53 @@
+.header {
+    background-color: #00005A;
+    color: #fff;
+    padding: .5em 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: .5em solid #FC8D00;
+}
+/* .header span {
+    color: #FC8D00;
+} */
+a {
+    text-decoration: none;
+}
+.header .university-logo {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.header .university-logo h2 {
+    letter-spacing: .1em;
+    font-size: 1.3em;
+}
+.header .university-logo img {
+    width: 4em;
+}
+.logout-admin {
+    background-color: #2222cb;
+    padding: .4em 1.5em;
+    border-radius: 5px;
+    z-index: 1;
+    position: relative;
+    cursor: pointer;
+}
+.logout-admin a {
+    color: #fff;
+}
+.logout-admin::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0;
+    background-color: #4f4fbb;
+    top: 0;
+    z-index: -1;
+    left: 0;
+    transition: .3s ease;
+    border-radius: 5px;
+}
+.logout-admin:hover::after {
+    width: 100%;
+}

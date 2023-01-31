@@ -1,0 +1,50 @@
+img {
+    object-fit: contain;
+}
+.dashboard {
+    padding: 1.5em 1em;
+    width: 100%;
+}
+.dashboard-heading {
+    display: flex;
+    gap: 1em;
+    border-bottom: 1px solid #000;
+    padding-bottom: 1em;
+}
+.dashboard-heading img {
+    width: 2.5em;
+}
+.dashboard-heading h1 {
+    text-transform: uppercase;
+    color: #00005A;
+}
+.panel-dashboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(400px,80vw), 1fr));
+    gap: 1.5em;
+    justify-content: center;
+    padding: 1em 0;
+}
+
+.dashboard-container {
+    padding: 1em 2em;
+    background-color: #00005A;
+    color: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+}
+.dashboard-container img {
+    width: 6em;
+}
+.dashboard-container h3 {
+    font-weight: 500;
+}
+.dashboard-container span {
+    color: #FC8D00;
+}
+.dashboard-container h1 {
+    font-size: 2em;
+    font-weight: 500;
+}

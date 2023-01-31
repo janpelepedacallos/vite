@@ -1,0 +1,97 @@
+.students {
+    margin: 1.5em 1em;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.students span {
+    color: #FC8D00;
+}
+.students .students-header {
+    margin: 1em .5em;
+    display: flex;
+    justify-content: space-between;
+}
+.students .students-header .students-buttons {
+    display: flex;
+}
+.students .students-header .students-buttons input {
+    margin: 0 1.5em 0 .5em;
+    padding: 0 1em;
+    border: 1px solid #00005A;
+    outline: none;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
+}
+.students .students-header .students-buttons button:nth-child(1) {
+    background-color: #00005A;
+    color: #fff;
+    padding: 0 1.5em;
+}
+.students .students-header .students-buttons button:nth-child(1):hover {
+    background-color: #5c5ca5;
+    border-color: transparent;
+}
+.students .students-header button {
+    padding: .5em 1em;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid #00005A;
+    cursor: pointer;
+    color: #00005A;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    transition: .3s ease;
+}
+.students .students-header button:hover {
+    background-color: #FC8D00;
+    border-color: #FC8D00;
+}
+.students .students-header button:hover:before {
+    width: 100%;
+}
+.students .students-header button img {
+    width: 1.5em;
+}
+.students table {
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 0 1em #cecece;
+    color: #00005A;
+}
+.students thead th,
+.students tbody td {
+    padding: 1em;
+    font-weight: 500;
+    cursor: pointer;
+}
+.students tbody td {
+    padding: .5em 1em;
+}
+.students table thead {
+    text-align: left;
+    background-color: #00005A;
+    color: #fff;
+}
+.students table tbody tr:nth-child(odd) {
+    background-color: #ffe3bf;
+}
+.students tbody {
+    border-bottom: .5em solid #00005A;
+}
+.students tbody tr td:nth-child(10) {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+.students tbody tr td:nth-child(10) img {
+    width: 1.5em;
+}
+.students tbody tr td:nth-child(10):hover {
+    text-decoration: underline;
+}

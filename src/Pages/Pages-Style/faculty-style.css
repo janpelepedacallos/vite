@@ -1,0 +1,75 @@
+.faculty {
+    margin: 1.5em 1em;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.faculty span {
+    color: #FC8D00;
+}
+.faculty .faculty-header {
+    margin: 1em .5em;
+    display: flex;
+    justify-content: space-between;
+}
+.faculty .faculty-header button {
+    padding: .5em 1em;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid #00005A;
+    cursor: pointer;
+    color: #00005A;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    transition: .3s ease;
+}
+.faculty .faculty-header button:hover {
+    background-color: #FC8D00;
+    border-color: #FC8D00;
+}
+.faculty .faculty-header button:hover:before {
+    width: 100%;
+}
+.faculty .faculty-header button img {
+    width: 1.5em;
+}
+.faculty table {
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 0 1em #cecece;
+    color: #00005A;
+}
+.faculty thead th,
+.faculty tbody td {
+    padding: 1em;
+    font-weight: 500;
+    cursor: pointer;
+}
+.faculty tbody td {
+    padding: .5em 1em;
+}
+.faculty table thead {
+    text-align: left;
+    background-color: #00005A;
+    color: #fff;
+}
+.faculty table tbody tr:nth-child(odd) {
+    background-color: #ffe3bf;
+}
+.faculty tbody {
+    border-bottom: .5em solid #00005A;
+}
+.faculty tbody tr td:nth-child(7) {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+.faculty tbody tr td:nth-child(7) img {
+    width: 1.5em;
+}
+.faculty tbody tr td:nth-child(7):hover {
+    text-decoration: underline;
+}

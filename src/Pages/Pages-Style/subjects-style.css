@@ -1,0 +1,75 @@
+.subjects {
+    margin: 1.5em 1em;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.subjects span {
+    color: #FC8D00;
+}
+.subjects .subjects-header {
+    margin: 1em .5em;
+    display: flex;
+    justify-content: space-between;
+}
+.subjects .subjects-header button {
+    padding: .5em 1em;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid #00005A;
+    cursor: pointer;
+    color: #00005A;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    transition: .3s ease;
+}
+.subjects .subjects-header button:hover {
+    background-color: #FC8D00;
+    border-color: #FC8D00;
+}
+.subjects .subjects-header button:hover:before {
+    width: 100%;
+}
+.subjects .subjects-header button img {
+    width: 1.5em;
+}
+.subjects table {
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 0 1em #cecece;
+    color: #00005A;
+}
+.subjects thead th,
+.subjects tbody td {
+    padding: 1em;
+    font-weight: 500;
+    cursor: pointer;
+}
+.subjects tbody td {
+    padding: .5em 1em;
+}
+.subjects table thead {
+    text-align: left;
+    background-color: #00005A;
+    color: #fff;
+}
+.subjects table tbody tr:nth-child(odd) {
+    background-color: #ffe3bf;
+}
+.subjects tbody {
+    border-bottom: .5em solid #00005A;
+}
+.subjects tbody tr td:nth-child(6) {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+.subjects tbody tr td:nth-child(6) img {
+    width: 1.5em;
+}
+.subjects tbody tr td:nth-child(6):hover {
+    text-decoration: underline;
+}
